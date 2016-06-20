@@ -31,16 +31,16 @@
         '',
         '* {',
         '',
-        '    font-family: Segoe UI, Noto Naskh Arabic !important;',
+        "    font-family: 'Segoe UI', 'Noto Naskh Arabic', 'Tahoma', sans !important;",
         '',
         '}'
     ].join('\n');
 
-    if (GM_addStyle !== undefined) {
+    if (typeof GM_addStyle !== 'undefined') {
         GM_addStyle(style);
-    } else if (PRO_addStyle !== undefined) {
+    } else if (typeof PRO_addStyle !== 'undefined') {
         PRO_addStyle(style);
-    } else if (addStyle !== undefined) {
+    } else if (typeof addStyle !== 'undefined') {
         addStyle(style);
     } else {
         var node = document.createElement('style');
