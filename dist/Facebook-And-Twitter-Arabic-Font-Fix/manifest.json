@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook & Twitter Arabic Font Fix",
+    "description": "Fix Facebook/Twitter font for Arab users",
+    "version": "0.1.0",
+    "icons": {
+        "48": "fatar.png"
+    },
+    "converted_from_user_script": true,
+    "content_scripts": [{
+        "exclude_globs": [],
+        "include_globs": ["*"],
+        "js": [
+            "Facebook-And-Twitter-Arabic-Font-Fix.user.js"
+        ],
+        "matches": [
+            "http://facebook.com/*",
+            "https://facebook.com/*",
+            "http://*.facebook.com/*",
+            "https://*.facebook.com/*",
+            "http://twitter.com/*",
+            "https://twitter.com/*",
+            "http://*.twitter.com/*",
+            "https://*.twitter.com/*"
+        ],
+        "run_at": "document_start"
+    }]
+}

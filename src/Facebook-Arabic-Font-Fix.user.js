@@ -4,6 +4,7 @@
 // @namespace   Facebook
 // @description Fix Facebook font for Arab users
 // @author      Xeriab Nabil (aka KodeBurner) <kodeburner@gmail.com>
+// @version     0.1.0
 // @encoding    utf-8
 // @license     MIT
 // @icon        https://raw.github.com/xeriab/userscripts/master/artwork/facebook-arabic.png

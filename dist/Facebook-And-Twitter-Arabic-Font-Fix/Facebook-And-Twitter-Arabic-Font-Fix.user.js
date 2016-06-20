@@ -22,10 +22,6 @@
 // @run-at      document-start
 // ==/UserScript==
 
-/*jslint browser: true, vars: true */
-/*jshint unused: true, strict: true, nonew: true */
-/*globals GM_addStyle, PRO_addStyle, addStyle */
-
 (function () {
     'use strict';
 
